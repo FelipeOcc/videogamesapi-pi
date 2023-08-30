@@ -1,28 +1,26 @@
-.pagination_container{
-    gap: 30px;
-    color: black;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
-    margin-bottom: 2rem;
-    
+.pagination_container {
+  gap: 30px;
+  color: black;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  margin-bottom: 2rem;
 }
 
-.pagination_container a{
-    gap: 30px;
-    font-weight: bold;
-    color: white;
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 16px;
-    margin-bottom: 2rem;
-}    
+.pagination_container a {
+  gap: 30px;
+  font-weight: bold;
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  margin-bottom: 2rem;
+}
 
 .pagination_container a:hover {
-  
-    color: grey;
+  color: grey;
 }
