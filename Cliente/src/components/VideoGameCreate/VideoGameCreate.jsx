@@ -6,13 +6,13 @@ import "../VideoGameCreate/videoGameCreate.css";
 
 function validate(input) {
   let errors = {};
-  if (!input.name.trim()) {
+  if (input.name.trim() === "") {
     errors.name = "Escribe un nombre";
   }
-  if (!input.description.trim()) {
+  if (input.description.trim() === "") {
     errors.description = "Escribe una descripción";
   }
-  if (!input.platforms.length) {
+  if (input.platforms.length === 0) {
     errors.platforms = "Selecciona una plataforma";
   }
   return errors;
@@ -59,17 +59,17 @@ export default function VideogameCreate() {
       ...input,
       platforms: [...input.platforms, event.target.value],
     });
-  }
-
-  function handleSubmit(event) {
-    event.preventDefault();
     setErrors(
       validate({
         ...input,
         [event.target.name]: event.target.value,
       })
     );
+  }
 
+  function handleSubmit(event) {
+    event.preventDefault();
+    const errors = validate(input) 
     if (Object.keys(errors).length === 0) {
       dispatch(postVideogame(input));
       alert("¡Haz creado un videojuego!");
