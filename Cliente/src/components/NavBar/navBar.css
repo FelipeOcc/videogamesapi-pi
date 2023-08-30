@@ -1,0 +1,31 @@
+.navbar_container{
+    
+    display: block; 
+    position: center;
+    text-align: center;
+}
+
+.select {
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    height: 2.5rem;
+    width: 10rem;
+    font-size: 17px;
+    border-color: #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #000;
+    border-radius: 0.3rem;
+    color: #fff;
+    
+}
+.select:hover{
+    background-color: #000;
+    opacity: 0.9;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,60 @@
+.card_image{
+    border-radius: 8.4px;
+    border: rgb(255, 255, 255) 3px solid ;
+    width: 270px;
+    height:210px;
+    background-color: transparent;
+   
+}    
+   
+.card_image:hover {
+    border: rgb(0, 0, 0) 3px solid;
+    
+
+}
+
+.card_game {
+    text-align: center;
+    list-style: none;
+   
+}
+
+.card_game:hover {
+    
+    opacity: 0.4;
+
+}
+
+.title_name {
+    
+    text-align: center;
+    color: white;
+    margin: 0.5rem;
+}
+
+.title_genre {
+    text-align: center;
+    color: grey;
+    
+}
+.genre {
+    
+    text-align: center;
+    margin-top: 0.5rem;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.title_rating {
+    text-align: center;
+    color: grey;
+    
+}
+
+.rating {
+    
+    text-align: center;
+    margin-top: 0.5rem;
+    color: white;
+    margin-top: 0.5rem;
+}

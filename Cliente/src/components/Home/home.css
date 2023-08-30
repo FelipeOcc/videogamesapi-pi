@@ -1,0 +1,47 @@
+body{
+    background: black;
+}
+
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+    transition: margin-left 0.3s 0.1s;
+}
+
+.create_container{
+    
+    margin-top: 3rem;
+    margin-left: 1rem;
+    justify-content: center;  
+    
+}
+
+.button_create_videogame{
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+}
+
+.reload_container{
+   
+    margin-left: 1rem;
+}
+
+.button_reload{
+    text-decoration: none;
+    color:black;
+    justify-content: center;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    outline: none;
+    border: none;
+}
+
+.pagination {
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
